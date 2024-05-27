@@ -113,18 +113,64 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{}
+.hero {display: flex;
+padding-top: 72px;
+padding-left: 52px;
+padding-right: 52px;
+max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
+background-color:#2e2f42;
+background-repeat: no-repeat;
+background-clip: padding-box;
+background-size: cover;
+background-position: center;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url("../images/Mobile/dark-bgmob@1x.jpg");
+width: 320px;
+    height: 432px;
+}
 
-.hero-page{}
- 
-.button-item{}
+.hero-page {
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.button-item {
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
+    background: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .button-item:hover,
-.button-item:focus{}        
+.button-item:focus {
+    background: #404bbf;
+}
 
 /*===========benefits page===============*/ 
 
-.icons-container{}
+.icons-container{margin-top: 95px;}
 
 .visually-hidden {}
 
@@ -132,11 +178,21 @@ button {cursor: pointer;}
 
 .li-benefits{}
 
-.benefits-div{}
+.benefits-div{display: none;}
 
-.benefits-item{}
+.benefits-item{font-weight: 700;
+    font-size: 36px;
+    padding-top: 72px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;}
 
-.benefits-link{}
+.benefits-link{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
 
 /*============our team============*/
 
