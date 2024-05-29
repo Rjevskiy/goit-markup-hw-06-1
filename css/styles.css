@@ -131,6 +131,13 @@ width: 320px;
     height: 432px;
 }
 
+@media screen and (min-resolution: 192dpi) {
+.hero{
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/mobile/dark-bgmob@2x.jpg");
+}    
+}
+
 .hero-page {
     font-weight: 700px;
     font-size: 36px;
@@ -175,7 +182,9 @@ width: 320px;
 
 .visually-hidden {}
 
-.benefits-container {}
+.benefits-container {display: flex;
+    flex-direction: column;
+    gap: 72px;}
 
 .li-benefits{}
 
@@ -183,7 +192,6 @@ width: 320px;
 
 .benefits-item{font-weight: 700;
     font-size: 36px;
-    padding-top: 72px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
@@ -294,12 +302,15 @@ width: 320px;
 
 .li-container{border-right: 1px solid #e7e9fc;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }   
 
 .li-container:hover{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}  
 
 .ourportfolio{overflow: hidden;
-    position: relative;}
+    position: relative;
+    width: 288px;
+    height: 280px;}
 
 
 .op-item{padding-top: 32px;}  
@@ -340,6 +351,7 @@ width: 320px;
 
 .footer-l {
     max-width: 264px;
+    text-align: center;
     
 }
  
@@ -360,6 +372,7 @@ width: 320px;
     display: inline-block;
     padding-bottom: 16px;
     text-transform: uppercase;
+    
 }
 
 .footer-logo-raleway {
@@ -375,6 +388,7 @@ width: 320px;
 .footer-item {
     color: #f4f4fd;
     width: 264px;
+    text-align: start;
 }
 
 .footer-i {
@@ -388,6 +402,7 @@ width: 320px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .foter-ul {
@@ -425,8 +440,10 @@ width: 320px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    
-}
+    display: flex;
+    flex-direction: column;
+    }
+  
 
 @media screen and(min-width: 1158px) {
     .footer-div-subscribe{margin-left: 80px;
@@ -434,12 +451,14 @@ width: 320px;
 }
 
 .footer-subscribe {
-    margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-form {
     display: flex;
-    gap: 24px;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-form-field-label {
@@ -484,7 +503,7 @@ width: 320px;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
-    min-width: 165px;
+    width: 165px;
     height: 40px;
     border: none;
     font-weight: 500;
