@@ -500,9 +500,8 @@ width: 320px;
     height: 280px;}
 
 @media screen and (min-width: 768px) {
-.ourportfolio{
-    <img srcset="./img />
-}}
+.ourportfolio{}
+}
 
 
 .op-item{padding-top: 32px;}  
