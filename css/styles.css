@@ -512,14 +512,15 @@ width: 320px;
 
 @media screen and (min-width: 768px) {
 .portfolio-container {
-    gap: 0;
-    column-gap: 24px;
-    row-gap: 72px;
-    justify-content: center;}
+    column-gap: 22px;
+    row-gap: 72px;}
 
 .op-item{padding-left: 16px;}
 
 .op-link{padding-left: 16px;}
+
+.ourportfolio{width: 356px;
+    height: 300px;}
 }
 
     /*=============FOOTER============*/
