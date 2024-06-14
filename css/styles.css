@@ -485,6 +485,7 @@ width: 320px;
     gap: 0;
     column-gap: 24px;
     row-gap: 72px;
+    justify-content: center;
     }}
 
 .li-container{border-right: 1px solid #e7e9fc;
