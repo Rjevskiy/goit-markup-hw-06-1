@@ -39,8 +39,7 @@ button {cursor: pointer;}
    justify-content: space-between;}  
 
 .page-navigation{display: flex;
-    align-items: center;
-   /* outline: 1px solid blue;*/}  
+    align-items: center;}  
 
 .logo{display: block;
     font-family:"Raleway",sans-serif;
