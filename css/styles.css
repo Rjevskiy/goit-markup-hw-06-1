@@ -937,7 +937,7 @@ width: 320px;
     top: 96px;
     left: 180px;}
 
-.backdrop {}
+.mobile-menu {display: none;}
 }
 
 
