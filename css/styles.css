@@ -40,7 +40,7 @@ button {cursor: pointer;}
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -312,8 +312,8 @@ width: 320px;
 
 @media screen and (min-width: 1158px) {
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/desctop/people-office-1dark-bg-dark-bg-desc@1x.jpg");
-    width: 1158px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/desctop/people-office-mobile-dark-bgmob@1x.jpg");
+    max-width: 1158px;
     height: 600px;
     padding-top: 188px;}
 }
